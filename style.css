@@ -11,7 +11,7 @@ body{
 header{
    min-height: 100vh;
     width: 100%;
-    background-image: url(/junk/pexels-ivo-rainha-1261180.jpg);
+    background-image: url(/Images/pexels-ivo-rainha-1261180.jpg);
 background-position: center;
 background-size: cover;
 position: relative;
@@ -400,7 +400,7 @@ display: flex;
 .cta{
   margin: 100px auto;
   width: 80%;
-  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/junk/5231.webp);
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/Images/5231.webp);
   background-size: cover;
   border-radius: 10px;
   text-align: center;
