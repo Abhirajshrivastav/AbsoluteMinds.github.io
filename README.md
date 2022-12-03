@@ -1,1 +1,0 @@
-# AbsoluteMinds.github.io
