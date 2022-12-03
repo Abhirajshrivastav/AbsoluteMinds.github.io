@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absolute Minds</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap"
+        rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <header class="sub-header">
+        <nav class="nav">
+
+            <div class="logo">
+                <img src="/junk/93c9d62cbf084d618b7313685096a3c2.png" alt="logo" title="Absolute books">
+            </div>
+            <div class="nav-links"  id="navLinks">
+                <i class="fa fa-times" onclick="hidMenu()"></i>
+                <ul >
+                    <li class="unorder" title="About"><a href="#">About</a></li>
+                    <li class="unorder" title="Categories"><a href="#">Categories</a></li>
+                    <li class="unorder" title="Blogs"><a href="#">Blogs</a></li>
+                    <li class="unorder" title="Contact"><a href="#">Contact </a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"  onclick="showMenu()"></i> 
+        </nav>
+    <h1>About Us</h1>
+    </header>
+
+   
+<section class="footer">
+    <h4>About us</h4>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis distinctio cum consequuntur<br> repudiandae commodi, voluptdent, dolorum totam eligendi laborum eius enim deserunt modi, quidem rerum.</p>
+    <div class="icons">
+        <i class="fa fa-facebook" ></i>
+        <i class="fa fa-twitter" ></i>
+        <i class="fa fa-instagram" ></i>
+        <i class="fa fa-linkedin" ></i>
+       
+    </div>
+    <p>Made with <i class="fa fa-heart-o" ></i> by "Abhiraj Shrivastav" </p>
+    <p><i class="fa fa-copyright" ></i> Absolute Books</p>
+</section>
+
+
+
+    <!-- javascript -->
+<script>
+
+    var navLinks = document.getElementById( "navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "-50px";
+    }
+    function hidMenu(){
+        navLinks.style.right = "-250px";
+    }
+
+</script>
+
+
+</body>
+</html>
